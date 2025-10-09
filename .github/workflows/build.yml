@@ -1,0 +1,40 @@
+name: Build partners.json
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run build
+        run: node scripts/build.js
+
+      - name: Commit artifacts to /docs if changed
+        run: |
+          if [[ -n "$(git status --porcelain docs/partners.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/partners.json
+            git commit -m "build: update partners.json"
+            git push
+          else
+            echo "No changes in docs/partners.json"
+          fi

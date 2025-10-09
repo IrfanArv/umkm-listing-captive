@@ -1,0 +1,14 @@
+{
+  "id": "nans",
+  "name": "Nans Healty Ways",
+  "category": "Kuliner",
+  "wa": "6281211391349",
+  "deskripsi": "Jajanan sehat.",
+  "image": "img/partner-img/nans.jpeg",
+  "gallery": ["img/partner-img/nans-1.jpg"],
+  "pricing": [
+    { "label": "Snack sehat", "price": 20000 }
+  ],
+  "createdAt": "2025-01-20T09:00:00Z",
+  "updatedAt": "2025-10-09T03:00:00Z"
+}
