@@ -1,0 +1,12 @@
+{
+  "id": "kohek",
+  "name": "Kohack Phone Services",
+  "category": "Service HP",
+  "wa": "6285892212427",
+  "deskripsi": "Service HP dan laptop software dan hardware",
+  "image": "img/partner/kohack.jpeg",
+  "gallery": [
+    "img/partner/kohack.jpeg"
+  ],
+  "createdAt": "2025-01-20T10:00:00Z"
+}

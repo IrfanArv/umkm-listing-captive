@@ -4,14 +4,9 @@
   "category": "Tanaman",
   "wa": "6281316249243",
   "deskripsi": "Pusat bonsai & tanaman hias.",
-  "image": "img/partner-img/bonsai.png",
-  "gallery": ["img/partner-img/bonsai-1.jpg", "img/partner-img/bonsai-2.jpg"],
-  "pricing": [
-    { "label": "Bonsai mini", "price": 150000 },
-    { "label": "Perawatan bulanan", "price": 75000 }
+  "image": "img/partner/bonsai.png",
+  "gallery": [
+    "img/partner/bonsai.png"
   ],
-  "location": { "lat": -8.65, "lng": 115.22, "address": "Jl. Contoh No. 1" },
-  "tags": ["tanaman", "bonsai", "hias"],
-  "createdAt": "2025-01-20T08:00:00Z",
-  "updatedAt": "2025-10-09T03:00:00Z"
+  "createdAt": "2025-01-20T10:00:00Z"
 }

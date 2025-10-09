@@ -1,0 +1,12 @@
+{
+  "id": "seyhan",
+  "name": "Seyhan Garage",
+  "category": "Bengkel",
+  "wa": "6285892212427",
+  "deskripsi": "Bengkel motor dan sepeda motor",
+  "image": "img/partner/seyhan.jpg",
+  "gallery": [
+    "img/partner/seyhan.jpg"
+  ],
+  "createdAt": "2025-01-20T10:00:00Z"
+}
