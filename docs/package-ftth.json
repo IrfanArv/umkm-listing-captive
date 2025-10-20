@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "ftth-15mbps",
+      "speed": 15,
+      "price": "Rp 165.000",
+      "unit": "Mbps",
+      "createdAt": "2025-01-20T10:00:00Z"
+    },
+    {
+      "id": "ftth-20mbps",
+      "speed": 20,
+      "price": "Rp 205.000",
+      "unit": "Mbps",
+      "createdAt": "2025-01-20T10:00:00Z"
+    },
+    {
+      "id": "ftth-35mbps",
+      "speed": 35,
+      "price": "Rp 340.000",
+      "unit": "Mbps",
+      "createdAt": "2025-01-20T10:00:00Z"
+    },
+    {
+      "id": "ftth-50mbps",
+      "speed": 50,
+      "price": "Rp 425.000",
+      "unit": "Mbps",
+      "createdAt": "2025-01-20T10:00:00Z"
+    },
+    {
+      "id": "ftth-100mbps",
+      "speed": 100,
+      "price": "Rp 577.000",
+      "unit": "Mbps",
+      "createdAt": "2025-01-20T10:00:00Z"
+    }
+  ]
+}
+

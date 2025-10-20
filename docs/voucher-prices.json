@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "voucher-5jam",
+      "tag": "5 Jam Unlimited",
+      "price": "Rp 2.000",
+      "device": "/ 1 Device",
+      "icon": "ti-wifi",
+      "label": "Voucher Internet",
+      "createdAt": "2025-01-20T10:00:00Z"
+    },
+    {
+      "id": "voucher-1hari",
+      "tag": "1 Hari Unlimited",
+      "price": "Rp 5.000",
+      "device": "/ 1 Device",
+      "icon": "ti-wifi",
+      "label": "Voucher Internet",
+      "createdAt": "2025-01-20T10:00:00Z"
+    }
+  ]
+}
+
