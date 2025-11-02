@@ -14,6 +14,18 @@
   ],
   "items": [
     {
+      "id": "puncak-pool",
+      "name": "Puncak Pool",
+      "category": "Operasional Villa",
+      "wa": "6281385088155",
+      "deskripsi": "Perlengkapan dan Obat Kolam Renang.",
+      "image": "img/partner/puncak-pool.jpeg",
+      "gallery": [
+        "img/partner/puncak-pool.jpeg"
+      ],
+      "createdAt": "2025-11-02T10:00:00Z"
+    },
+    {
       "id": "bonsai-corner",
       "name": "Bonsai Corner",
       "category": "Tanaman",
